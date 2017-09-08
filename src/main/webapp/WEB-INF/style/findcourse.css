@@ -1,0 +1,29 @@
+.content table {
+	width:80%;
+	height:30px;
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+.btn_div {
+	margin: 15px;
+	text-align: right;
+	margin-right: 108px;
+}
+.add {
+	width:60px;
+	height:30px;
+	font-size:20px;
+}
+.btn {
+	width:60px;
+	height:20px;
+	
+}
+.pages {
+	text-align: center;
+	margin-top: 30px;
+}
+
+

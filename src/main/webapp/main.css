@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.total {
+	
+	width:1366px;
+	height:768px;
+
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-image: url(images/background.jpg);
+	margin: 0 auto;
+}
+
+/* 
+使用position:relative定位
+*/
+.part1 {
+	width:300px;
+	height:670px;
+	position:relative;
+}
+
+.part2 {
+	width:1066px;
+	height:670px;
+
+	position:absolute;
+	left:300px;
+	top:0px;
+}
+
+.part3 {
+width:1366px;
+height:98px;
+text-align: center;
+position:absolute;
+left:0px;
+top:670px;
+background-color: #897b76;
+line-height: 20px;
+}
+
+.logo_top {
+	width:300px;
+	height:120px;
+	
+}
+
+.logo_top img{
+	margin:5px 3px;
+}
+
+/* 
+使用position:relative定位
+*/
+.login {
+	width:300px;
+	height:230px;
+	
+	background: url(images/login.jpg) no-repeat center;
+	position:relative;
+}
+.login div{
+	width:270px;
+	height:150px;
+		position:absolute;
+	left:10px;
+	top:70px;
+	font-weight: bold;
+	color:white;
+	font-size: 10px;  
+	font-family: "文泉驿正黑","微软雅黑","黑体";
+}
+
+.notice {
+	width:300px;
+	height:320px;
+	background: url(images/bbs.jpg) no-repeat 5px 4px;
+
+}
+
+.headline {
+	width:1066px;
+	height:70px;
+
+}
+
+.pic {
+	width:1066px;
+	height:220px;
+
+}
+
+.content {
+	width:1066px;
+	height:380px;
+
+	line-height: 30px;
+
+}
+
+.content div{
+	margin:30px 30px;
+	}
+.headline div{
+	width:175px;
+	height:70px;
+
+	float:left
+}
+
+.headline div img{
+	margin:10px 4px
+}
+
+.part3 p{
+	
+	color: black;
+	margin:6px 4px;
+	font-weight: bold;
+}
+.part3 div {
+	margin:12px 4px;
+}
+
+.width110{
+	width:110px;
+	
+}
+
+.width70{
+	width:60px;
+}
+
+.login_info{
+	width:50px;
+	height:30px;
+}
+
+
